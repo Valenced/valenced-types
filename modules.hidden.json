@@ -1,0 +1,8 @@
+[
+    "components/_",
+    "discord/_/modules/settings",
+    "hidden",
+    "hidden/types",
+    "plugins/_",
+    "plugins/_/repositories"
+]

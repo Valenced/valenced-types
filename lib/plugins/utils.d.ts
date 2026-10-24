@@ -1,0 +1,2 @@
+import { C as formatVersion, S as PluginContributorLink, T as parsePluginContributor, w as getPluginContributorName, x as PluginContributor } from "../../types-DFEAl8CS.js";
+export { PluginContributor, PluginContributorLink, formatVersion, getPluginContributorName, parsePluginContributor };

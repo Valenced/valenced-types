@@ -1,0 +1,6 @@
+{
+    "@valenced/components/_": "valenced.hidden.components",
+    "@valenced/discord/_/modules/settings": "valenced.hidden.discord.settings",
+    "@valenced/plugins/_": "valenced.hidden.plugins.internal",
+    "@valenced/plugins/_/repositories": "valenced.hidden.plugins.repositories"
+}
