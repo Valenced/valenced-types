@@ -250,7 +250,7 @@ declare namespace _internal_d_exports$1 {
 declare const sBeforeRunApplication: Set<RunApplicationCallback>;
 declare const sAfterRunApplication: Set<RunApplicationCallback>;
 declare namespace caches_d_exports {
-  export { Cache, Uncached, cache, cacheAsset };
+  export { Cache, Uncached, cache, cacheAsset, markCacheComplete };
 }
 declare const Uncached: Cache;
 declare let cache: Cache;
@@ -264,6 +264,7 @@ interface Cache {
   /** Indicates if the loader cache on an outdated format */
   outdated?: boolean;
 }
+declare function markCacheComplete(): void;
 declare function cacheAsset(asset: Asset, moduleId: Metro.ModuleID): void;
 declare module '@valenced/modules/native' {
   interface NativeMethods {
